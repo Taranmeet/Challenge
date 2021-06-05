@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomGenericButton">
+        <attr name="titleTextSize" format="dimension|reference" />
+        <attr name="subTitleTextSize" format="dimension|reference" />
+        <attr name="titleTextColor" format="color|reference" />
+        <attr name="subTitleTextColor" format="color|reference" />
+        <attr name="titleTextVisibility" format="enum">
+            <enum name="gone" value="8" />
+            <enum name="invisible" value="4" />
+            <enum name="visible" value="0" />
+        </attr>
+        <attr name="subTitleTextVisibility" format="enum">
+            <enum name="gone" value="8" />
+            <enum name="invisible" value="4" />
+            <enum name="visible" value="0" />
+        </attr>
+        <attr name="iconVisibility" format="enum">
+            <enum name="gone" value="8" />
+            <enum name="invisible" value="4" />
+            <enum name="visible" value="0" />
+        </attr>
+        <attr name="iconSrc" format="reference"/>
+        <attr name="titleText" format="string|reference"/>
+        <attr name="subTitleText" format="string|reference"/>
+    </declare-styleable>
+
+</resources>
